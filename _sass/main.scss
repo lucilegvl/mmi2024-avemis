@@ -1,19 +1,21 @@
-@import "base/reset";
 
+@import "base/reset";
 @import "abstracts/variables";
 @import "base/common";
 
 @import "components/header";
+@import "components/index_covid-banner.scss";
 @import "components/footer";
-
-@import "components/news";
-@import "components/boutons";
 
 @import "components/index_txt-pres-capc.scss";
 @import "components/index_les-expos.scss";
 @import "components/index_infos-pratiques.scss";
 
+<<<<<<< HEAD
 /* Debut page des expos */ 
 
 @import "top_page_expos.scss";
+=======
+@import "components/index_nav-banners.scss";
+>>>>>>> 0c699c7bada8be106f6df35f35ab0a8825f3901a
 

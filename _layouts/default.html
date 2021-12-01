@@ -7,10 +7,17 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="/assets/css/bootstrap.css">
     <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+
   </head>
   <body>
     {% include /header.html %}
     {{ content }}
+    {% include /don.html %}
     {% include /footer.html %}
   </body>
 </html>
