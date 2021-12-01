@@ -54,8 +54,6 @@ footer ul{
  .lines ul li a img{
     height: 44px;
     width: 43px;
-    display: flex;
-    flex-direction: row;
  }
 
  .lines ul li a {
@@ -91,12 +89,15 @@ footer ul{
  .billetterie2{
     color :#D2BE88;
     font-weight: normal;
-    display:flex;
     text-transform: uppercase;
     padding-top: 55px;
-    align-items: center;
  }
  
+ .title-billeterie {
+    display :flex;
+    align-items: center;
+ }
+
  .newsletter{
     display: flex;
     align-items: center;
