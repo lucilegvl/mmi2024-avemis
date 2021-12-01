@@ -81,21 +81,20 @@ footer ul{
  .logo-menu {
       margin-top: -30px;
  }
- .social-media ul li a img{
-    margin-left: 5px;
-    margin-right: 5px;
- }
+//  .social-media ul li a img{
+//     margin-left: 5px;
+//     margin-right: 5px;
+//  }
 
  .billetterie2{
     color :#D2BE88;
     font-weight: normal;
+    display: flex ;
+    align-items: center;
     text-transform: uppercase;
     padding-top: 55px;
  }
-.icon-billeterie {
-   display: flex;
-   align-content: center;
-}
+
  .title-billeterie {
     margin: 0;
  }
