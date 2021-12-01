@@ -1,29 +1,9 @@
 ---
-title: Bienvenue sur la page d'accueil
+title: Home
 ---
-
-<!-- Ce bout de code est fait pour vous servir d'exemple, n'oubliez pas de le supprimer quand vous n'en aurez plus besoin ! -->
-<section class="news">
-
-    {% include news-box.html title="Un premier article" text="Ici la description du premier article" %}
-
-    {% include news-box.html title="Un second article" text="Ici la description du deuxième article" %}
-
-    {% include news-box.html title="Un troisième article" text="Ici la description du troisième article, et tout ça, avec le même html !" %}
-
-</section>
-
-<!-- Exemple de grille avec bootstrap -->
-<section class="container">
-    <div class="row">
-        <div class="col-3">
-            test
-        </div>
-        <div class="col-3">
-            test
-        </div>
-        <div class="col-6">
-            test
-        </div>
-    </div>
-</section>
+{%include /index_top-page.html %}
+{%include /index_covid-banner.html %}
+{% include /index_txt-pres-capc.html %}
+{% include /index_les-expos.html %}
+{% include /index_infos-pratiques.html %}
+{%include /index_nav-banners.html %}

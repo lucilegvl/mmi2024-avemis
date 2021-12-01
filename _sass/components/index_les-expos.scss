@@ -1,0 +1,47 @@
+/*index Section présentation des expos*/
+.les-expos{
+    background-color: #d2be88;
+    display:flex;
+}
+.expos-left{
+    width: 40%;
+    /* flex-shrink: 1; */
+    margin: 80px 121px;
+}
+.expos-left h2{
+    margin-bottom: 58px;
+}
+ 
+.expos-right {
+    /* background: blueviolet; */
+    position: relative;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.expos-right a{
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    color: #1c1c1f;
+    text-decoration: underline;
+    margin-top:30px ;
+    text-align:center;
+    display:inline-block;
+}
+ 
+.expos-right h3{
+    margin-bottom:10px;
+}
+ 
+.pres-absalon{
+    background-color: #fafafa;
+    width:30%;
+    padding: 48px 90px 53px 90px;
+    text-align: center;
+    justify-content:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+ 
