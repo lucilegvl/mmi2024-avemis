@@ -35,7 +35,7 @@ header input{
     font-size: 18px;
     font-weight: normal;
     border:none;
-    width: 135px;
+    width: 135px;    
 }
  
 .billetterie{
@@ -53,6 +53,9 @@ header nav ul li select{
     background-color: #1C1C1F;
     color:#fafafa;
     border:none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
  
  
@@ -62,7 +65,7 @@ header nav ul li select{
 .top-menu{
 position: relative;
 display:flex;
-justify-content: right;
+justify-content: flex-end;
 align-items: center;
 }
 
