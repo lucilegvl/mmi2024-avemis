@@ -15,15 +15,16 @@ footer ul{
     padding: 10px;
  }
  
- a{
-   text-decoration: none;
+ .footer_content .lines a{
+   border: none ;
    color:#fafafa;
 }
 
-a:hover{
-   color: #D2BE88;
-   border-bottom: 2px solid #D2BE88;
-   }
+.footer_content .lines a:hover{
+   border: none ;
+   // color: #D2BE88;
+ }
+
 
  .footer_content{
     margin-right: 8%;
@@ -31,7 +32,7 @@ a:hover{
  }
  
  footer .lines{
-    display:flex;
+    display: flex;
     justify-content: space-between;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -55,7 +56,16 @@ a:hover{
     display: flex;
     flex-direction: row;
  }
- 
+
+ .lines ul li a {
+      color:#fafafa;
+  }
+
+ .lines ul li a:hover {
+   text-decoration: none;
+   color: #D2BE88;
+}
+   
  .social-media ul{
     display:flex;
  }
