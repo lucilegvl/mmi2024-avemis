@@ -1,5 +1,5 @@
 
-
+@import "base/reset";
 
 @import "base/reset";
 @import "abstracts/variables";
@@ -10,4 +10,8 @@
 
 @import "components/news";
 @import "components/boutons";
+
+@import "components/index_txt-pres-capc.scss";
+@import "components/index_les-expos.scss";
+@import "components/index_infos-pratiques.scss";
 
