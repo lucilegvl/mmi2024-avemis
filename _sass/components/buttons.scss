@@ -1,0 +1,17 @@
+.button{
+padding: 14px 54px;
+margin: 45px 0px 0px;
+background-color: #1c1c1f;
+color: #fafafa;
+border:none;
+font-size: 18px;
+font-family: 'Julius Sans One', sans-serif;
+transition:1s;
+text-transform: uppercase;
+}
+
+.button:hover{
+background:#fafafa;
+color:#1c1c1f;
+transition:1s;
+}
