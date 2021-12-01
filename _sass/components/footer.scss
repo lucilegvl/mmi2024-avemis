@@ -79,9 +79,9 @@ footer ul{
  }
  
  .logo-menu {
-      margin-top: -30px;
       height:50px;
  }
+
  .social-media ul li a img{
     margin-left: 5px;
     margin-right: 5px;
@@ -89,7 +89,7 @@ footer ul{
  }
 
  .billetterie2{
-    color :#D2BE88;
+    color :#D2BE88 !important;
     font-weight: normal;
     display: flex ;
     align-items: center;
@@ -117,3 +117,5 @@ footer ul{
     display:flex;
     justify-content: space-evenly;
  }
+
+ 
