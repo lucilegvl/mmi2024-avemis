@@ -1,0 +1,35 @@
+.top-page-construction{
+    background-image: url("/assets/images/top-page-construction.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 120vh;
+    overflow-x: hidden;
+    justify-self: center;
+    text-align: center;
+ }
+ 
+ .top-page-construction_content{
+    color:#1C1C1F;
+    padding: 20px 40px 30px 50px;
+    background-color: rgba(250, 250, 250, 1);
+    display: inline-block;
+    margin-top: 290px;
+ }
+ 
+ .petit-logo{
+     width: 122px;
+     height: 55px;
+ }
+ 
+ .angle-haut-construction{
+     display: flex;
+     margin-left: -20px;
+     margin-top: 20px;
+ }
+ 
+ .angle-bas-construction{
+     display: flex;
+     margin-left:620px;
+     margin-top: 10px;
+ }
+    

@@ -15,13 +15,7 @@
 
 
 
-
-
-
-
-
-
-/* Debut page des expos */ 
+/* Page des expositions */ 
 
 @import "components/expos_top-page.scss";
 @import "components/expos_txt-concept.scss";
@@ -30,4 +24,6 @@
 @import "components/expos_other-expos.scss";
 @import "components/expos_nav-banners.scss";
 
+/* Pages en construction */
 
+@import "components/construction_top-page.scss";
