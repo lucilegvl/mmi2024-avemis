@@ -1,6 +1,6 @@
 /*index Section présentation des expos*/
 .les-expos{
-    background-color: #d2be88;
+    background-color: $gold;
     display:flex;
     margin-bottom:12%;
 }
@@ -22,7 +22,7 @@
 .expos-right a{
     font-family: 'Poppins', sans-serif;
     font-size:18px;
-    color: #1c1c1f;
+    color: $black;
     text-decoration: underline;
     margin-top:30px ;
     text-align:center;
@@ -34,8 +34,8 @@
 }
  
 .pres-expo{
-    background-color: #fafafa;
-    color:#1c1c1f;
+    background-color: $white;
+    color:$black;
     width:60%;
     padding: 48px 90px 53px 90px;
     text-align: center;
@@ -47,11 +47,11 @@
 }
 
 .plus{
-    color:#1c1c1f;
+    color:$black;
     text-decoration: underline;
 }
  .surlignage2{
-    border-bottom: 20px solid #FAFAFA;
+    border-bottom: 20px solid $white;
     padding-bottom: 0;
     line-height: 5%;
     margin-right: 20%;

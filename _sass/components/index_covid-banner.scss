@@ -1,13 +1,13 @@
 /* bannière covid19 */
 .covid{
-    background-color: #1C1C1F;
+    background-color: $black;
     width: cover;
     height: auto;
     padding-left: 102px;
     padding-right: 102px;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #fafafa;
+    color: $white;
     text-decoration:none;
     text-align: center;
     display:flex;
@@ -15,5 +15,5 @@
  }  
     
  .lien-en-savoir-plus{
-   color: #fafafa;
+   color: $white;
  }

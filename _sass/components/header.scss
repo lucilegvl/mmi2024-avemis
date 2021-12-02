@@ -1,11 +1,11 @@
 /* HEADER */
 .menu{
     font-family: 'Julius Sans One', sans-serif;
-    color: #fafafa;
+    color: $white;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1C1C1F;
+    background-color: $black;
 }
  
 .icon-search {
@@ -31,8 +31,8 @@
 }
  
 header input{
-    background:#1C1C1F;
-    color:#fafafa;
+    background:$black;
+    color:$white;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -42,7 +42,7 @@ header input{
 }
  
 .billetterie{
-    color:#D2BE88;
+    color:$gold;
     font-weight: normal;
     padding-top: 0;
 }
@@ -55,8 +55,8 @@ header input{
 header nav ul li select{
     font-family: 'Julius Sans One', sans-serif;
     font-size: 18px;
-    background-color: #1C1C1F;
-    color:#fafafa;
+    background-color: $black;
+    color:$white;
     border:none;
     appearance: none;
     -webkit-appearance: none;
@@ -93,7 +93,7 @@ clear: both;
 header nav > ul > li > ul > li > a {
 display: block;
 text-decoration: none;
-color: #fafafa;
+color: $white;
 }
 
 .sub-nav li{
@@ -105,7 +105,7 @@ padding-right: 0;
 
 .sub-nav{
 display: none;
-background-color: #1C1C1F;
+background-color: $black;
 position: absolute;
 width:fit-content;
 z-index: 1000;
@@ -113,8 +113,8 @@ font-weight: normal;
 }
 
 header nav a:hover{
-color: #D2BE88;
-border-bottom: 2px solid #D2BE88;
+color: $gold;
+border-bottom: 2px solid $gold;
 }
 
 header nav > ul li:hover .sub-nav{
@@ -143,11 +143,11 @@ font-size: 18px;
 }
 
 .scrolling-menu li:hover{
-color: #D2BE88;
+color: $gold;
 }
 
 header a {
     text-decoration: none;
-    color:#fafafa;
+    color:$white;
     font-size:18px;
 }

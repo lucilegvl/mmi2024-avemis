@@ -17,8 +17,8 @@
 .buttondon{
    padding: 14px 54px;
    margin: 45px 0px 0px;
-   background-color: #1c1c1f;
-   color: #fafafa;
+   background-color: $black;
+   color: $white;
    border:none;
    font-size: 18px;
    font-family: 'Julius Sans One', sans-serif;
@@ -28,6 +28,6 @@
    
 .buttondon:hover{
    background:#c2b288;
-   color:#1c1c1f;
+   color:$black;
    transition:1s;
 }

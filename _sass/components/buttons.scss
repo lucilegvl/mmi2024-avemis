@@ -1,8 +1,8 @@
 .button{
 padding: 14px 54px;
 margin: 45px 0px 0px;
-background-color: #1c1c1f;
-color: #fafafa;
+background-color: $black;
+color: $white;
 border:none;
 font-size: 18px;
 font-family: 'Julius Sans One', sans-serif;
@@ -11,7 +11,7 @@ text-transform: uppercase;
 }
 
 .button:hover{
-background:#fafafa;
-color:#1c1c1f;
+background:$white;
+color:$black;
 transition:1s;
 }
