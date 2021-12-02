@@ -1,23 +1,18 @@
 /* bannière covid19 */
 .covid{
-    background-color: $black;
-    width: cover;
-    height: auto;
-    padding-left: 102px;
-    padding-right: 102px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: $white;
-    text-decoration:none;
-    text-align: center;
-    display:flex;
-    opacity: 80%;
- }  
-    
+  background-color: $black;
+  width: cover;
+  padding: 1% 10%;
+  color: $white;
+  text-decoration:none;
+  text-align: center;
+  display:flex;
+  opacity: 80%;
+}  
+  
 .lien-en-savoir-plus{
-   color: $white;
-   /*text-decoration: none;*/
- }
+  color: $white;
+}
 
 .lien-en-savoir-plus:hover{
   color: $white;
