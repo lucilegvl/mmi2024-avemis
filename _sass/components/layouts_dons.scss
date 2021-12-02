@@ -7,10 +7,11 @@
 .text-side{
    display:flex;
    justify-content: space-between;
+   margin:136px 180px 121px 120px;
    
    @media screen and (max-width:1000px) {
       flex-direction: column;
-      margin:30px 40px 0px 0px;
+      margin:0px 10px 0px 5px;
       background-color: red;
       h2 {
          margin-bottom: 40px;
@@ -18,9 +19,9 @@
          flex-direction: column;
       }
    }
-   @media screen and (max-width:300px) {
-      margin:0px 0px 0px 0px;
-   }
+   // @media screen and (max-width:300px) {
+   //    margin:0px 0px 0px 0px;
+   // }
 }
 
 
@@ -34,7 +35,6 @@
       // align-items: center;
       
    }
-
 }
  
 .text-side .left{
@@ -55,11 +55,13 @@
    text-transform: uppercase;
    text-decoration: none;
    @media screen and (max-width:1000px) { 
+      
       margin-top: 20px;
       flex-direction: column;
       padding: 14px 54px;
       display: flex;
       align-items: center;
+      margin: 0;
 
    
    
