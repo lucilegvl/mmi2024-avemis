@@ -1,8 +1,9 @@
 /* infos pratiques index */
 .sections {
     display: flex;
-    padding : 0% 17%;
+    margin: 5% 10%;
     justify-content: space-between;
+    padding-top: 5%;
 }
  
 .sections h3{
@@ -10,9 +11,9 @@
 }
  
 .infos-pratiques h2{
-    padding-left: 122px;
-    margin-bottom: 50px;
+    padding-left: 10%;
 }
+
  
 .icon-h3 {
     display : flex;
@@ -83,6 +84,6 @@
 }
  
 .infos-pratiques{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
