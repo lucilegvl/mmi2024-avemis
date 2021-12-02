@@ -1,14 +1,14 @@
 /* index et expos menu bandes */
 .evenement-capc {
-background-image: url("../../assets/images/banniereevenementscapc.jpg");
-padding:60px 0px;
-margin-bottom: 14px;
-margin-top:136px;
-background-repeat: no-repeat;
-@media screen and (max-width: 550px) {
-    padding:30px 0px;
-    margin-top:10%;
- }
+    background-image: url("../../assets/images/banniereevenementscapc.jpg");
+    padding:60px 0px;
+    margin-bottom: 14px;
+    margin-top:136px;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 550px) {
+        padding:30px 0px;
+        margin-top:10%;
+    }
 }
     
 .oeuvres-capc{
@@ -17,22 +17,18 @@ padding:60px 0px;
 margin-bottom: 14px;
 background-repeat: no-repeat;
     @media screen and (max-width: 550px) {
-    padding:30px 0px;
-
-
- }
+        padding:30px 0px;
+    }
 }
     
 .expositions-capc{
-background-image: url("../../assets/images/banniereexposcapc.png");
-padding:60px 0px;
-margin-bottom: 136px;
-background-repeat: no-repeat;
-@media screen and (max-width: 558px) {
-    padding:30px 0px;
-
-
- }
+    background-image: url("../../assets/images/banniereexposcapc.png");
+    padding:60px 0px;
+    margin-bottom: 136px;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 558px) {
+        padding:30px 0px;
+    }
 }
 
 .histoire-capc{
@@ -75,9 +71,8 @@ background-repeat: no-repeat;
     margin-bottom: 136px;
     @media screen and (max-width: 558px) {
         padding: 30px 0px;
+    }
     
-    
-     }
 }
 
 .menu-bandes a{
