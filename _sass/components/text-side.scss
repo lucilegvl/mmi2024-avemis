@@ -1,15 +1,14 @@
 /* index et expos les textes avec le titre à gauche */
 .text-side{
-    display:flex;
-    justify-content: space-between;
-    margin:12% 10%;
-    position: relative;
- }
- 
- .text-side .left{
-    width:50%;
-    flex-shrink:0;
- }
+   display:flex;
+   justify-content: space-between;
+   margin: 12% 0;
+}
+
+.text-side .left{
+   width:50%;
+   flex-shrink:0;
+}
 
  .surlignage{
    border-bottom: 20px solid $gold;
