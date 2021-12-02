@@ -1,4 +1,9 @@
 /* index et expos les textes avec le titre à gauche */
+
+.soutenezlart{
+   margin: 12% 0;
+}
+
 .text-side{
    display:flex;
    justify-content: space-between;
@@ -41,7 +46,7 @@
 
 .buttondon{
    padding: 14px 54px;
-   margin: 45px 0px 0px;
+   margin: 50% 0;
    background-color: $black;
    color: $white;
    border:none;
@@ -67,3 +72,4 @@
    color:$black;
    transition:1s;
 }
+

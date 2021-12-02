@@ -2,7 +2,6 @@
 .les-expos{
     background-color: $gold;
     display:flex;
-    margin-bottom:12%;
     align-items: center;
 }
 
@@ -22,9 +21,8 @@
 .expos-right a{
     font-family: 'Poppins', sans-serif;
     font-size:18px;
-    color: $black;
+    color: $black !important;
     text-decoration: underline;
-    margin-top:30px ;
     text-align:center;
     display:inline-block;
 }
@@ -46,10 +44,11 @@
     transform: translateX(-50%) translateY(-50%);
 }
 
-.plus{
+/*.plus{
     color:$black;
     text-decoration: underline;
-}
+}*/
+
  .surlignage2{
     border-bottom: 20px solid $white;
     padding-bottom: 0;
