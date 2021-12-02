@@ -14,6 +14,12 @@
     opacity: 80%;
  }  
     
- .lien-en-savoir-plus{
+.lien-en-savoir-plus{
    color: $white;
+   /*text-decoration: none;*/
  }
+
+.lien-en-savoir-plus:hover{
+  color: $white;
+  text-decoration: underline;
+}
