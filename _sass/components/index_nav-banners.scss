@@ -36,18 +36,16 @@ background-repeat: no-repeat;
 }
 
 .histoire-capc{
-background-image: url("../../assets/images/banniereevenementscapc.jpg");
-padding:60px 0px;
-margin-bottom: 136px;
-background-repeat: no-repeat;
-@media screen and (max-width: 558px) {
+    background-image: url("../../assets/images/banniereevenementscapc.jpg");
+    padding:60px 0px;
+    margin-bottom: 136px;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 558px) {
     padding:30px 0px;
-
-
- }
+    }
 }
 
-    .evenement-capc{
+.evenement-capc{
 
     background-image: url("../../assets/images/banniereevenementscapc.jpg");
     padding:60px 0px;
@@ -57,10 +55,10 @@ background-repeat: no-repeat;
         padding:30px 0px;
     
     
-     }
     }
+}
         
-    .oeuvres-capc{
+.oeuvres-capc{
     background-image: url("../../assets/images/banniereoeuvresinsitu.jpg");
     padding:60px 0px;
     margin-bottom: 14px;
@@ -68,10 +66,10 @@ background-repeat: no-repeat;
         padding:30px 0px;
     
     
-     }
     }
+}
         
-    .expositions-capc{
+.expositions-capc{
     background-image: url("../../assets/images/banniereexposcapc.png");
     padding:60px 0px;
     margin-bottom: 136px;
@@ -80,6 +78,7 @@ background-repeat: no-repeat;
     
     
      }
+}
 
 .menu-bandes a{
     text-decoration: none;
