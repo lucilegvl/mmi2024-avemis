@@ -21,7 +21,7 @@
 .expos-right a{
     font-family: 'Poppins', sans-serif;
     font-size:18px;
-    color: $black;
+    color: $black !important;
     text-decoration: underline;
     text-align:center;
     display:inline-block;
@@ -44,10 +44,11 @@
     transform: translateX(-50%) translateY(-50%);
 }
 
-.plus{
+/*.plus{
     color:$black;
     text-decoration: underline;
-}
+}*/
+
  .surlignage2{
     border-bottom: 20px solid $white;
     padding-bottom: 0;

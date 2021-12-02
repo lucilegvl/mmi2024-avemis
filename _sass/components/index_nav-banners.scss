@@ -4,35 +4,81 @@ background-image: url("../../assets/images/banniereevenementscapc.jpg");
 padding:60px 0px;
 margin-bottom: 14px;
 margin-top:136px;
+background-repeat: no-repeat;
+@media screen and (max-width: 558px) {
+    padding:10px;
+ }
 }
     
 .oeuvres-capc{
 background-image: url("../../assets/images/banniereoeuvresinsitu.jpg");
 padding:60px 0px;
 margin-bottom: 14px;
+background-repeat: no-repeat;
+    @media screen and (max-width: 558px) {
+    padding:10px;
+
+
+ }
 }
     
 .expositions-capc{
 background-image: url("../../assets/images/banniereexposcapc.png");
 padding:60px 0px;
 margin-bottom: 136px;
+background-repeat: no-repeat;
+@media screen and (max-width: 558px) {
+    padding:10px;
+
+
+ }
 }
 
 .histoire-capc{
 background-image: url("../../assets/images/banniereevenementscapc.jpg");
 padding:60px 0px;
 margin-bottom: 136px;
+background-repeat: no-repeat;
+@media screen and (max-width: 558px) {
+    padding:10px;
+
+
+ }
 }
 
-.les-expos a{
-text-decoration: none;
-color: white;
-text-align:center;
-}
+    .evenement-capc{
+    background-image: url("../../assets/images/banniereevenementscapc.jpg");
+    padding:60px 0px;
+    margin-bottom: 14px;
+    margin-top:136px;
+    }
+        
+    .oeuvres-capc{
+    background-image: url("../../assets/images/banniereoeuvresinsitu.jpg");
+    padding:60px 0px;
+    margin-bottom: 14px;
+    }
+        
+    .expositions-capc{
+    background-image: url("../../assets/images/banniereexposcapc.png");
+    padding:60px 0px;
+    margin-bottom: 136px;
+    }
 
 .menu-bandes a{
 text-decoration: none;
 color: white;
 text-align:center;
+<<<<<<< HEAD
 }*/
  
+=======
+
+}
+
+@media screen and (max-width:1000px) {
+    .menu-bandes {
+        flex-direction: column;
+    }
+ }
+>>>>>>> 893a57aafe6a72e375c39d64089366a6ba5298eb
