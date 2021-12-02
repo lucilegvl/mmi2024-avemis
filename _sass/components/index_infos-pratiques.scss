@@ -4,6 +4,12 @@
     margin: 5% 10%;
     justify-content: space-between;
     padding-top: 5%;
+    @media screen and (max-width:375px) {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin:0px;
+    }
 }
  
 .sections h3{
@@ -12,7 +18,11 @@
  
 .infos-pratiques h2{
     padding-left: 10%;
+    @media screen and (max-width:375px) {
+        pading:0;
+    }
 }
+
 
  
 .icon-h3 {
@@ -44,11 +54,17 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    @media screen and (max-width:375px) {
+        width : 80%;
+    }
 }
  
 .lieu-section {
     display: block;
     width: 46.5%;
+    @media screen and (max-width:375px) {
+        width: 80%;
+    }
 }
  
 
@@ -56,7 +72,10 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-}
+    @media screen and (max-width:375px) {
+        display: block;
+    }
+} 
 
 .title-adress p {
     margin: 0;
@@ -70,6 +89,9 @@
 .cars-transports {
     display:flex;
     justify-content: space-between;
+    @media screen and (max-width:375px) {
+        display: block;
+    }
 }
  
 .cars {
