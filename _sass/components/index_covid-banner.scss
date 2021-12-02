@@ -2,17 +2,16 @@
 .covid{
   background-color: $black;
   width: cover;
-  padding: 1% 10% 1% 10%;
+  padding: 1% 10%;
   color: $white;
   text-decoration:none;
   text-align: center;
   display:flex;
   opacity: 80%;
 }  
-    
+  
 .lien-en-savoir-plus{
   color: $white;
-  /*text-decoration: none;*/
 }
 
 .lien-en-savoir-plus:hover{
