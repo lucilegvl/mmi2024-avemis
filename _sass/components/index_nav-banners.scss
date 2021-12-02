@@ -86,7 +86,7 @@ background-repeat: no-repeat;
 }
 
 .menu-bandes { 
-@media screen and (max-width:1000px) {
+    @media screen and (max-width:1000px) {
         flex-direction: column;
     }
 }
