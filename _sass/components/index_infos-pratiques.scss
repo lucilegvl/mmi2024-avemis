@@ -1,8 +1,9 @@
 /* infos pratiques index */
 .sections {
     display: flex;
-    padding : 0% 17%;
+    margin: 5% 10%;
     justify-content: space-between;
+    padding-top: 5%;
 }
  
 .sections h3{
@@ -10,22 +11,27 @@
 }
  
 .infos-pratiques h2{
-    padding-left: 122px;
-    margin-bottom: 50px;
+    padding-left: 10%;
 }
+
  
 .icon-h3 {
     display : flex;
+    align-items: center;
+    padding-top: 3.5%;
 }
  
 .corp-underline {
     text-decoration:underline;
+    padding-top: 3.5%;
+    padding-bottom: 2%;
 }
  
  
 .time {
     display: flex;
     justify-content: space-between;
+    padding-top:3.5%
 }
  
 .euro {
@@ -43,17 +49,19 @@
     width: 46.5%;
 }
  
-.title-adress p {
-    padding-top: 3.5%;
-}
 
 .title-adress {
     display:flex;
     justify-content: space-between;
 }
+
+.title-adress p {
+    padding-bottom: 0;
+}
  
 .map {
     width: 100%;
+    padding-top: 3.5%;
 }
  
 .cars-transports {
@@ -83,6 +91,6 @@
 }
  
 .infos-pratiques{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }

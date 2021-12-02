@@ -8,15 +8,28 @@
     background-color: #1C1C1F;
 }
  
-a{
+footer a{
     text-decoration: none;
     color:#fafafa;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
  
+.icon-search {
+    display: flex;
+    align-items: center;
+}
+
+.menu-billeterie {
+    display: flex;
+    align-items: center;
+}
+
 .logo{
     height: 55px;
     width: 122px;
 }
+
  
 header nav ul li{
     padding:7px;
@@ -35,12 +48,13 @@ header input{
     font-size: 18px;
     font-weight: normal;
     border:none;
-    width: 135px;
+    width: 135px;    
 }
  
 .billetterie{
     color:#D2BE88;
     font-weight: normal;
+    padding-top: 0;
 }
  
 .scrolling-menu{
@@ -53,16 +67,18 @@ header nav ul li select{
     background-color: #1C1C1F;
     color:#fafafa;
     border:none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
  
  
 /*El copié collé du menu deroulant*/
 
-
 .top-menu{
 position: relative;
 display:flex;
-justify-content: right;
+justify-content: flex-end;
 align-items: center;
 }
 
@@ -98,7 +114,6 @@ padding-right: 0;
 
 .sub-nav{
 display: none;
-box-shadow: 0px 1px 2px #CCC;
 background-color: #1C1C1F;
 position: absolute;
 width:fit-content;
@@ -138,4 +153,9 @@ font-size: 18px;
 
 .scrolling-menu li:hover{
 color: #D2BE88;
+}
+
+a {
+    text-decoration: none;
+    color:#fafafa;
 }

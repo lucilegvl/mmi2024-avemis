@@ -2,21 +2,21 @@
 .les-expos{
     background-color: #d2be88;
     display:flex;
+    margin-bottom:12%;
 }
 .expos-left{
     width: 40%;
     /* flex-shrink: 1; */
-    margin: 80px 121px;
+    margin: 70px 121px;
 }
 .expos-left h2{
     margin-bottom: 58px;
 }
  
 .expos-right {
-    /* background: blueviolet; */
     position: relative;
-    /* width: 100%;
-    height: 100%; */
+    width: 58.5%;
+    /*height: 100%; */
 }
 
 .expos-right a{
@@ -33,9 +33,10 @@
     margin-bottom:10px;
 }
  
-.pres-absalon{
+.pres-expo{
     background-color: #fafafa;
-    width:30%;
+    color:#1c1c1f;
+    width:60%;
     padding: 48px 90px 53px 90px;
     text-align: center;
     justify-content:center;
@@ -44,4 +45,19 @@
     left:50%;
     transform: translateX(-50%) translateY(-50%);
 }
+
+.plus{
+    color:#1c1c1f;
+    text-decoration: underline;
+}
+ .surlignage2{
+    border-bottom: 20px solid #FAFAFA;
+    padding-bottom: 0;
+    line-height: 5%;
+    margin-right: 20%;
+    position: absolute;
+    padding-left: 2%;
+    white-space: nowrap;
+}
+
  
