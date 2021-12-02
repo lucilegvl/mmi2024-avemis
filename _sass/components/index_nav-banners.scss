@@ -47,30 +47,29 @@ background-repeat: no-repeat;
 }
 
     .evenement-capc{
-    background-image: url("../../assets/images/banniereevenementscapc.jpg");
-    padding:60px 0px;
-    margin-bottom: 14px;
-    margin-top:136px;
+        background-image: url("../../assets/images/banniereevenementscapc.jpg");
+        padding:60px 0px;
+        margin-bottom: 14px;
+        margin-top:136px;
     }
         
     .oeuvres-capc{
-    background-image: url("../../assets/images/banniereoeuvresinsitu.jpg");
-    padding:60px 0px;
-    margin-bottom: 14px;
+        background-image: url("../../assets/images/banniereoeuvresinsitu.jpg");
+        padding:60px 0px;
+        margin-bottom: 14px;
     }
         
     .expositions-capc{
-    background-image: url("../../assets/images/banniereexposcapc.png");
-    padding:60px 0px;
-    margin-bottom: 136px;
+        background-image: url("../../assets/images/banniereexposcapc.png");
+        padding:60px 0px;
+        margin-bottom: 136px;
     }
 
 .menu-bandes a{
-text-decoration: none;
-color: white;
-text-align:center;
-
-}*/
+    text-decoration: none;
+    color: white;
+    text-align:center;
+}
 
 @media screen and (max-width:1000px) {
     .menu-bandes {
