@@ -48,6 +48,7 @@ background-repeat: no-repeat;
 }
 
     .evenement-capc{
+
     background-image: url("../../assets/images/banniereevenementscapc.jpg");
     padding:60px 0px;
     margin-bottom: 14px;
@@ -79,19 +80,15 @@ background-repeat: no-repeat;
     
     
      }
-    }
 
 .menu-bandes a{
-text-decoration: none;
-color: white;
-text-align:center;
-
-
+    text-decoration: none;
+    color: white;
+    text-align:center;
 }
 
+.menu-bandes { 
 @media screen and (max-width:1000px) {
-    .menu-bandes {
         flex-direction: column;
     }
- }
-
+}

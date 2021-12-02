@@ -2,31 +2,31 @@
 
 
 .top-page-index{
-background-image: url("/assets/images/index_top-page.png");
-background-size: cover;
-background-repeat: no-repeat;
-min-height: calc(100vh - 75px);
-overflow-x: hidden;
-justify-self: center;
+    background-image: url("/assets/images/index_top-page.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 75px);
+    overflow-x: hidden;
+    justify-self: center;
 }
 
 .top-page-index_content{
-padding: 20px 40px 30px 50px;
-background-color: rgba(250, 250, 250, 1);
-display: inline-block;
-margin-top: 270px;
+    padding: 20px 40px 30px 50px;
+    background-color: rgba(250, 250, 250, 1);
+    display: inline-block;
+    margin-top: 270px;
 }
 
 .top-page-index h1{
-color:$black;
+    color:$black;
 }
 
 .angle-haut-index{
-margin-left:-20px;
-margin-top: 20px;
+    margin-left:-20px;
+    margin-top: 20px;
 }
 
 .angle-bas-index{
-margin-left:380px;
-margin-top: 0px;
+    margin-left:380px;
+    margin-top: 0px;
 }
