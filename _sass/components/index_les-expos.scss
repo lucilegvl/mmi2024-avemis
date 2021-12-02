@@ -34,8 +34,9 @@
 .pres-expo{
     background-color: $white;
     color:$black;
-    width:60%;
-    padding: 5% 10% 5% 10%;
+    width:50%;
+    height: 45%;
+    padding: 2% 5% 2% 5%;
     text-align: center;
     justify-content:center;
     position:absolute;
@@ -59,4 +60,12 @@
     white-space: nowrap;
 }
 
- 
+.angles-hauts-carousel{
+    margin-left:-100%;
+    margin-top:2px;
+}
+
+.angles-bas-carousel{
+    margin-left: 95%;
+    margin-bottom:20px;
+}
