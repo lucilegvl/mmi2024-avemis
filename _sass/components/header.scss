@@ -8,11 +8,23 @@
     background-color: #1C1C1F;
 }
  
-a{
+footer a{
     text-decoration: none;
     color:#fafafa;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
  
+.icon-search {
+    display: flex;
+    align-items: center;
+}
+
+.menu-billeterie {
+    display: flex;
+    align-items: center;
+}
+
 .logo{
     height: 55px;
     width: 122px;
@@ -101,7 +113,6 @@ padding-right: 0;
 
 .sub-nav{
 display: none;
-box-shadow: 0px 1px 2px #CCC;
 background-color: #1C1C1F;
 position: absolute;
 width:fit-content;
@@ -141,4 +152,9 @@ font-size: 18px;
 
 .scrolling-menu li:hover{
 color: #D2BE88;
+}
+
+a {
+    text-decoration: none;
+    color:#fafafa;
 }
