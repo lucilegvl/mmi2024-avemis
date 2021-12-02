@@ -7,14 +7,6 @@
 .text-side{
    display:flex;
    justify-content: space-between;
-<<<<<<< HEAD
-   margin: 136px 0;
-}
-
-.soutenezlart p {
-   margin-bottom:10%;
-=======
-   margin:136px 180px 121px 120px;
    
    @media screen and (max-width:1000px) {
       flex-direction: column;
@@ -43,7 +35,6 @@
       
    }
 
->>>>>>> 893a57aafe6a72e375c39d64089366a6ba5298eb
 }
  
 .text-side .left{
