@@ -152,14 +152,13 @@ header a {
     text-decoration: none;
     color:$white;
     font-size:18px;
-<<<<<<< HEAD
 }
 
 /* Début scss mobile */
 .menu-mobile {
     background-color: #FAFAFA;
     display: none;
-  }
+}
 
 @media screen and (max-width: 700px) {
     .menu-desktop2 {
@@ -168,8 +167,4 @@ header a {
     .menu-mobile {
       display: block;
     }
-  }
-
-=======
 }
->>>>>>> b0f445ea551089602cff10cf49beaddeaa72b8f0
