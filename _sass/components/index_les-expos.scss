@@ -14,7 +14,6 @@
 }
  
 .expos-right {
-    /* background: blueviolet; */
     position: relative;
     width: 58.5%;
     /*height: 100%; */
@@ -51,4 +50,14 @@
     color:#1c1c1f;
     text-decoration: underline;
 }
+ .surlignage2{
+    border-bottom: 20px solid #FAFAFA;
+    padding-bottom: 0;
+    line-height: 5%;
+    margin-right: 20%;
+    position: absolute;
+    padding-left: 2%;
+    white-space: nowrap;
+}
+
  
