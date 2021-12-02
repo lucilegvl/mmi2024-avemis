@@ -1,8 +1,23 @@
 .buttonchrono{
-    background-color: #fafafa;
-    color:#1c1c1f;
-    font-weight: bolder;
+   background-color: #fafafa;
+   color:#1c1c1f;
+   font-weight: bolder;
+   font-family: Julius sans one;
+   font-size: 18px;
+   font-weight: bolder;
+   text-transform:uppercase;
  }
+
+ .buttonchrono:hover{
+   /*background:#fafafa;
+   color:#1c1c1f;
+   transition:1s;*/
+   color:#1c1c1f;
+   border-width: 3px;
+   padding:5px 10px;
+   border-color: #d2be88;
+   border-style:solid;
+}
  
  .chrono-menu-boutons nav ul {
     display:flex;
