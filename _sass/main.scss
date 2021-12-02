@@ -3,7 +3,7 @@
 @import "abstracts/variables";
 @import "base/common";
 
-@import "components/header.scss";
+@import "components/layouts_header.scss";
 @import "components/buttons.scss";
 @import "components/index_covid-banner.scss";
 @import "components/index_top-page.scss";
@@ -11,8 +11,8 @@
 @import "components/index_les-expos.scss";
 @import "components/index_infos-pratiques.scss";
 @import "components/index_nav-banners.scss";
-@import "components/dons.scss";
-@import "components/footer.scss";
+@import "components/layouts_dons.scss";
+@import "components/layouts_footer.scss";
 
 
  /* Page des expositions */ 

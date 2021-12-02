@@ -7,7 +7,7 @@
 }
  
 .sections h3{
-    margin-left: 20px;
+    margin: 0 0 0 20px;
 }
  
 .infos-pratiques h2{
@@ -41,6 +41,9 @@
 .time-tarif-section {
     flex-shrink: 1;
     width :46.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
  
 .lieu-section {
@@ -52,10 +55,11 @@
 .title-adress {
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .title-adress p {
-    padding-bottom: 0;
+    margin: 0;
 }
  
 .map {
@@ -86,7 +90,7 @@
 }
  
 .text-days{
-    margin-bottom: 30px;
+    margin-bottom: 10%;
 }
  
 .infos-pratiques{
