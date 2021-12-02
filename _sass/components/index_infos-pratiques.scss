@@ -31,6 +31,7 @@
 .time {
     display: flex;
     justify-content: space-between;
+    padding-top:3.5%
 }
  
 .euro {
@@ -52,6 +53,10 @@
 .title-adress {
     display:flex;
     justify-content: space-between;
+}
+
+.title-adress p {
+    padding-bottom: 0;
 }
  
 .map {
