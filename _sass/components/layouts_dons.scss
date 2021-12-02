@@ -12,6 +12,7 @@
    @media screen and (max-width:1000px) {
       flex-direction: column;
       margin:0px 10px 0px 5px;
+      display: block;
       background-color: red;
       h2 {
          margin-bottom: 40px;
@@ -19,9 +20,9 @@
          flex-direction: column;
       }
    }
-   // @media screen and (max-width:300px) {
-   //    margin:0px 0px 0px 0px;
-   // }
+   @media screen and (max-width:300px) {
+      margin:0px 0px 0px 0px;
+   }
 }
 
 
@@ -62,10 +63,10 @@
       display: flex;
       align-items: center;
       margin: 0;
-
-   
-   
    }
+   @media screen and (max-width:850px) { 
+      margin-bottom: 5%;
+ }
 }
    
 .buttondon:hover{
@@ -73,4 +74,3 @@
    color:$black;
    transition:1s;
 }
-

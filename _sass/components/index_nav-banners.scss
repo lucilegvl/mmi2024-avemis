@@ -5,8 +5,9 @@ padding:60px 0px;
 margin-bottom: 14px;
 margin-top:136px;
 background-repeat: no-repeat;
-@media screen and (max-width: 558px) {
-    padding:10px;
+@media screen and (max-width: 550px) {
+    padding:30px 0px;
+    margin-top:10%;
  }
 }
     
@@ -15,8 +16,8 @@ background-image: url("../../assets/images/banniereoeuvresinsitu.jpg");
 padding:60px 0px;
 margin-bottom: 14px;
 background-repeat: no-repeat;
-    @media screen and (max-width: 558px) {
-    padding:10px;
+    @media screen and (max-width: 550px) {
+    padding:30px 0px;
 
 
  }
@@ -28,7 +29,7 @@ padding:60px 0px;
 margin-bottom: 136px;
 background-repeat: no-repeat;
 @media screen and (max-width: 558px) {
-    padding:10px;
+    padding:30px 0px;
 
 
  }
@@ -40,30 +41,45 @@ padding:60px 0px;
 margin-bottom: 136px;
 background-repeat: no-repeat;
 @media screen and (max-width: 558px) {
-    padding:10px;
+    padding:30px 0px;
 
 
  }
 }
 
     .evenement-capc{
-        background-image: url("../../assets/images/banniereevenementscapc.jpg");
-        padding:60px 0px;
-        margin-bottom: 14px;
-        margin-top:136px;
+
+    background-image: url("../../assets/images/banniereevenementscapc.jpg");
+    padding:60px 0px;
+    margin-bottom: 14px;
+    margin-top:136px;
+    @media screen and (max-width: 558px) {
+        padding:30px 0px;
+    
+    
+     }
     }
         
     .oeuvres-capc{
-        background-image: url("../../assets/images/banniereoeuvresinsitu.jpg");
-        padding:60px 0px;
-        margin-bottom: 14px;
+    background-image: url("../../assets/images/banniereoeuvresinsitu.jpg");
+    padding:60px 0px;
+    margin-bottom: 14px;
+    @media screen and (max-width: 558px) {
+        padding:30px 0px;
+    
+    
+     }
     }
         
     .expositions-capc{
-        background-image: url("../../assets/images/banniereexposcapc.png");
-        padding:60px 0px;
-        margin-bottom: 136px;
-    }
+    background-image: url("../../assets/images/banniereexposcapc.png");
+    padding:60px 0px;
+    margin-bottom: 136px;
+    @media screen and (max-width: 558px) {
+        padding: 30px 0px;
+    
+    
+     }
 
 .menu-bandes a{
     text-decoration: none;
@@ -71,9 +87,8 @@ background-repeat: no-repeat;
     text-align:center;
 }
 
+.menu-bandes { 
 @media screen and (max-width:1000px) {
-    .menu-bandes {
         flex-direction: column;
     }
 }
-
