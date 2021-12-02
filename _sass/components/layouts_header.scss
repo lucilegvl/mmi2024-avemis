@@ -1,5 +1,6 @@
+
 /* HEADER */
-.menu{
+.menu-desktop{
     font-family: 'Julius Sans One', sans-serif;
     color: $white;
     display:flex;
@@ -152,3 +153,24 @@ header a {
     color:$white;
     font-size:18px;
 }
+
+/* Début scss mobile */
+.menu-mobile {
+    background-color: #FAFAFA;
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .menu-desktop2 {
+      display: none;
+    }
+    .menu-mobile {
+      display: block;
+    }
+<<<<<<< HEAD
+}
+=======
+
+}
+
+>>>>>>> 8453b3f4608e6d338eadfb9fa2cd1ff8be872ce0
