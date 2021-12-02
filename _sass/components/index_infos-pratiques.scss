@@ -24,7 +24,7 @@
 .infos-pratiques h2{
     padding-left: 10%;
     @media screen and (max-width:375px) {
-        pading:0;
+        padding:0;
     }
 }
 
@@ -33,7 +33,9 @@
 .icon-h3 {
     display : flex;
     align-items: center;
+    
 }
+
  
 .corp-underline {
     text-decoration:underline;
