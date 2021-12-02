@@ -1,22 +1,52 @@
 /* index et expos les textes avec le titre à gauche */
+
+.soutenezlart{
+   margin: 136px 0;
+}
+
 .text-side{
    display:flex;
    justify-content: space-between;
    margin:136px 180px 121px 120px;
+   
+   @media screen and (max-width:1000px) {
+      flex-direction: column;
+      margin:0px 10px 0px 5px;
+      display: block;
+      background-color: red;
+      h2 {
+         margin-bottom: 40px;
+         font-size:20px;
+         flex-direction: column;
+      }
+   }
+   @media screen and (max-width:300px) {
+      margin:0px 0px 0px 0px;
+   }
 }
+
 
 .text-side p {
    margin-bottom:45px;
+   @media screen and (max-width:1000px) {
+      margin-bottom:20px;
+      margin-left: 10px;
+      flex-direction: column;
+      // display: flex;
+      // align-items: center;
+      
+   }
 }
  
 .text-side .left{
    width:50%;
    flex-shrink:0;
+
 }
 
 .buttondon{
    padding: 14px 54px;
-   margin: 45px 0px 0px;
+   margin: 50% 0;
    background-color: $black;
    color: $white;
    border:none;
@@ -25,6 +55,18 @@
    transition:1s;
    text-transform: uppercase;
    text-decoration: none;
+   @media screen and (max-width:1000px) { 
+      
+      margin-top: 20px;
+      flex-direction: column;
+      padding: 14px 54px;
+      display: flex;
+      align-items: center;
+      margin: 0;
+   }
+   @media screen and (max-width:850px) { 
+      margin-bottom: 5%;
+ }
 }
    
 .buttondon:hover{

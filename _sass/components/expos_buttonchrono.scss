@@ -6,22 +6,20 @@
    font-size: 18px;
    font-weight: bolder;
    text-transform:uppercase;
- }
+}
 
- .buttonchrono:hover{
+.buttonchrono:hover{
    /*background:$white;
    color:$black;
    transition:1s;*/
    color:$black;
-   border-width: 3px;
    padding:5px 10px;
    border-color: $gold;
    border-style:solid;
 }
  
- .chrono-menu-boutons nav ul {
+.chrono-menu-boutons nav ul {
     display:flex;
     justify-content: space-evenly;
     list-style: none;
-    margin-bottom: 136px;
- }
+}

@@ -68,90 +68,91 @@ header nav ul li select{
 /*El copié collé du menu deroulant*/
 
 .top-menu{
-position: relative;
-display:flex;
-justify-content: flex-end;
-align-items: center;
+    position: relative;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 header nav ul{
-list-style-type: none;
+    list-style-type: none;
 }
 
 header nav ul li{
-float: left;
-text-align: right;
-position: relative;
-margin: 0px 15px;
-font-size: 18px;
+    float: left;
+    text-align: right;
+    position: relative;
+    margin: 0px 15px;
+    font-size: 18px;
 }
 
 header nav ul::after{
-content: "";
-display: table;
-clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 header nav > ul > li > ul > li > a {
-display: block;
-text-decoration: none;
-color: $white;
+    display: block;
+    text-decoration: none;
+    color: $white;
 }
 
 .sub-nav li{
-margin-left: 0;
-margin-right: 0;
-padding-left: 0;
-padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .sub-nav{
-display: none;
-background-color: $black;
-position: absolute;
-width:fit-content;
-z-index: 1000;
-font-weight: normal;
+    display: none;
+    background-color: $black;
+    position: absolute;
+    width:fit-content;
+    z-index: 1000;
+    font-weight: normal;
 }
 
 header nav a:hover{
-color: $gold;
-border-bottom: 2px solid $gold;
+    color: $gold;
+    border-bottom: 2px solid $gold;
 }
 
 header nav > ul li:hover .sub-nav{
-display: block;
+    display: block;
 }
 
 .sub-nav li{
-float: none;
-width: 100%;
-text-align: left;
+    float: none;
+    width: 100%;
+    text-align: left;
 }
 
 .sub-nav a{
-padding: 10px;
-border-bottom: none;
+    padding: 10px;
+    border-bottom: none;
 }
 
 .sub-nav a:hover{
-border-bottom: none;
-background-color: RGBa(200,200,200,0.1);
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
 }
 
 .scrolling-menu > a::after{
 content:" ▼";
-font-size: 18px;
+    font-size: 18px;
 }
 
 .scrolling-menu li:hover{
-color: $gold;
+    color: $gold;
 }
 
 header a {
     text-decoration: none;
     color:$white;
     font-size:18px;
+<<<<<<< HEAD
 }
 
 /* Début scss mobile */
@@ -169,3 +170,6 @@ header a {
     }
   }
 
+=======
+}
+>>>>>>> b0f445ea551089602cff10cf49beaddeaa72b8f0
