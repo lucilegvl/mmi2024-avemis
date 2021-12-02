@@ -9,7 +9,7 @@
     margin: 5% 10%;
     justify-content: space-between;
     padding-top: 5%;
-    @media screen and (max-width:375px) {
+    @media screen and (max-width:850px) {
         flex-direction: column;
         display: flex;
         align-items: center;
@@ -23,7 +23,7 @@
  
 .infos-pratiques h2{
     padding-left: 10%;
-    @media screen and (max-width:375px) {
+    @media screen and (max-width:850px) {
         padding:0;
     }
 }
@@ -33,7 +33,9 @@
 .icon-h3 {
     display : flex;
     align-items: center;
-    
+    @media screen and (max-width:850px) {
+        padding-top:5%;
+    }
 }
 
  
@@ -61,16 +63,18 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    @media screen and (max-width:375px) {
-        width : 80%;
+    @media screen and (max-width:850px) {
+        width : 75%;
+        gap:0rem;
     }
 }
  
 .lieu-section {
     display: block;
     width: 46.5%;
-    @media screen and (max-width:375px) {
-        width: 80%;
+    @media screen and (max-width:850px) {
+        width: 75%;
+        margin-top: 5%;
     }
 }
  
@@ -79,13 +83,17 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    @media screen and (max-width:375px) {
+    @media screen and (max-width:850px) {
         display: block;
+        margin-left: 5%;
     }
 } 
 
 .title-adress p {
     margin: 0;
+    @media screen and (max-width:850px) {
+        margin-top: 5%;
+    }
 }
  
 .map {
@@ -96,19 +104,27 @@
 .cars-transports {
     display:flex;
     justify-content: space-between;
-    @media screen and (max-width:375px) {
-        display: block;
+    @media screen and (max-width:850px) {
+        flex-direction: column;
+        align-items: center;
     }
 }
  
 .cars {
-    width:49%
+    width:49%;
+    @media screen and (max-width:850px) {
+        width: 80%;
+    }
 }
  
 .transports {
     flex-shrink: 1;
     width:49%;
     margin-left: 18%;
+    @media screen and (max-width:850px) {
+        margin-left: 0%;
+        width: 80%;
+    }
 }
  
 .text-tarif a {
