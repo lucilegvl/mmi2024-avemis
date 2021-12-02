@@ -18,16 +18,20 @@
 .icon-h3 {
     display : flex;
     align-items: center;
+    padding-top: 3.5%;
 }
  
 .corp-underline {
     text-decoration:underline;
+    padding-top: 3.5%;
+    padding-bottom: 2%;
 }
  
  
 .time {
     display: flex;
     justify-content: space-between;
+    padding-top:3.5%
 }
  
 .euro {
@@ -49,6 +53,10 @@
 .title-adress {
     display:flex;
     justify-content: space-between;
+}
+
+.title-adress p {
+    padding-bottom: 0;
 }
  
 .map {
