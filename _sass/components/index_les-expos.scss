@@ -3,14 +3,15 @@
     background-color: $gold;
     display:flex;
     margin-bottom:12%;
+    align-items: center;
 }
+
 .expos-left{
     width: 40%;
-    /* flex-shrink: 1; */
-    margin: 70px 121px;
+    margin: 0px 10%;
 }
 .expos-left h2{
-    margin-bottom: 58px;
+    margin-bottom: 10%;
 }
  
 .expos-right {
@@ -36,7 +37,7 @@
     background-color: $white;
     color:$black;
     width:60%;
-    padding: 48px 90px 53px 90px;
+    padding: 5% 10% 5% 10%;
     text-align: center;
     justify-content:center;
     position:absolute;
