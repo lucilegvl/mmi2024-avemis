@@ -1,4 +1,4 @@
-/*footer ul{
+footer ul{
    list-style: none;
    padding-top: 5px;
 }
@@ -130,7 +130,7 @@ footer .lines{
    list-style: none;
    display:flex;
    justify-content: space-evenly;
-}*/
+}
 
 
 
@@ -277,7 +277,7 @@ footer a{
    color: $gold;
 }
 
-.newsletter-block {
+.newsletter-block-mobile {
    flex-direction : column;
    margin:0;
 }
@@ -313,14 +313,14 @@ footer a{
          display: none;
       }
    }
-   // .lines{
-   //    flex-direction :column;
-   //    margin-top: 24px;
-   //    margin-bottom: 24px;
-   //    .h3 {
-   //       margin-left: 50px !important;
-   //    }
-   // }
+   .lines{
+      flex-direction :column;
+      margin-top: 24px;
+      margin-bottom: 24px;
+      .h3 {
+         margin-left: 50px !important;
+      }
+   }
 }
 .adress {
    flex-direction: column;
