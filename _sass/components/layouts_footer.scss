@@ -197,6 +197,8 @@ footer a{
    flex-direction:column ;
    color:$white;
    line-height: 1.3;
+   font-size:18px;
+   font-weight:700px !important;
 }
 
 .footer_content-mobile .lines a:hover{
@@ -221,6 +223,8 @@ footer a{
 
 .lines ul {
    line-height: 1.3;
+   padding-top: 10px;
+   padding-bottom: 21px;
 }
 
 .lines ul li a img{
@@ -305,9 +309,9 @@ footer a{
    list-style: none;
    display:flex;
    flex-wrap: wrap;
+   line-height: 22px;
    justify-content: space-between;
-   @media screen and (max-width:550px) {  
-   }
+
 }
 
 .footer-mobile {
