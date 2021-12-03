@@ -86,9 +86,7 @@ header nav ul li{
     font-size: 18px;
     @media screen  and (max-width: 700px){
         float: none;
-        text-align: left;
-
-        
+        text-align: left;    
     }
 }
 
@@ -171,6 +169,7 @@ header a {
     .menu-desktop2 {
         display: none;
     }
+ 
     .menu-mobile {
         display: block;
     }
@@ -217,5 +216,9 @@ font-family: 'Julius Sans One', sans-serif;
     color: #D2BE88 ;
 }
 
+.btn-outline-success:hover{
+    background-color: #D2BE88;
+    border: none;
+}
 
 
