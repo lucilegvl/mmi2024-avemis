@@ -155,10 +155,10 @@ header a {
 }
 
 /* Début scss mobile */
+
 .menu-mobile {
-    background-color: #FAFAFA;
     display: none;
-}
+    }
 
 @media screen and (max-width: 700px) {
     .menu-desktop2 {
@@ -168,3 +168,8 @@ header a {
       display: block;
     }
 }
+
+.container{
+font-family: 'Julius Sans One', sans-serif;
+}
+
