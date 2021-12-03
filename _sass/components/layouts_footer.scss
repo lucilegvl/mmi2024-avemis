@@ -299,7 +299,8 @@ footer a{
    text-decoration: underline;
    list-style: none;
    display:flex;
-   justify-content: space-evenly;
+   flex-wrap: wrap;
+   justify-content: space-between;
    @media screen and (max-width:550px) {  
    }
 }
@@ -307,13 +308,12 @@ footer a{
 .footer-mobile {
    .contact {
       align-items: center;
-   }
-   .sublists {
-      ul {
-         display: none;
-      }
+      text-align: center;
    }
    .lines{
+      div {
+         text-align: center;
+      }
       flex-direction :column;
       margin-top: 24px;
       margin-bottom: 24px;
@@ -324,4 +324,5 @@ footer a{
 }
 .adress {
    flex-direction: column;
+   text-align:center;
 }
