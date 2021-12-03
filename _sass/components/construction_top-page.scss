@@ -2,12 +2,12 @@
     background-image: url("/assets/images/top-page-construction.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 120vh;
+    min-height: calc(100vh - 75px);
     overflow-x: hidden;
     justify-self: center;
     text-align: center;
     @media screen and (max-width:701px){
-        min-height: 90vh;
+        min-height: 50px;
     }
 }
  
@@ -17,17 +17,21 @@
     background-color: rgba(250, 250, 250, 1);
     opacity: 0.9;
     display: inline-block;
-    margin-top: 290px;
+    margin-top: 270px;
     @media screen and (max-width:701px) {
-        display: flex;
-        flex-wrap: wrap;
-        padding : 34px 34px 34px 34px;
-        margin-top: 50%;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        left:37%;
+        transform: translateX(-50%) translateY(0%);
+        padding : 20px;
+        margin: 30px;
         h1 {
             font-size: 30px;
             line-height: 30px;
             margin-top: 4%;
             width: 100%;
+            text-align: center;
         }
         p {
             font-size: 16px;
@@ -52,7 +56,10 @@
     margin-left: -20px;
     margin-top: 20px;
     @media screen and (max-width:701px) {
-        display:none;
+        max-width: 18px;
+        position: absolute;
+        margin-left: 0;
+        margin-top: -5px;
     }
 }
  
@@ -61,7 +68,10 @@
     margin-left:620px;
     margin-top: 10px;
     @media screen and (max-width:701px) {
-        display:none;
+        max-width: 18px;
+        position: absolute;
+        margin-left: 345px;
+        margin-top: -13px;
     }
 }
     
