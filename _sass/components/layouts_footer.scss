@@ -1,4 +1,4 @@
-footer ul{
+/*footer ul{
    list-style: none;
    padding-top: 5px;
 }
@@ -130,7 +130,7 @@ footer .lines{
    list-style: none;
    display:flex;
    justify-content: space-evenly;
-}
+}*/
 
 
 
@@ -147,17 +147,19 @@ footer .lines{
 .footer-mobile {
    background-color: $black;
    display:none;
+}
+
 .footer-desktop {
    display :block;
 }
-}
+
 @media screen and (max-width:550px) {
-      .footer-desktop {
-         display : none;
-      }
-      .footer-mobile {
-         display: block;
-      }
+   .footer-desktop {
+      display : none;
+   }
+   .footer-mobile {
+      display: block;
+   }
 }
 
 
@@ -177,7 +179,6 @@ footer{
    color: $white;
    margin: 0 auto;
    padding: 10px;
-      
 }
  
 footer a{
@@ -218,8 +219,8 @@ footer .lines{
    font-weight: 300;
    border:none;
    width: 234px;
-  flex-direction:column;
-  margin-left: 0;
+   flex-direction:column;
+   margin-left: 0;
 }
 
 .lines ul {

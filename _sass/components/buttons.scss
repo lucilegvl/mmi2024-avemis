@@ -1,17 +1,17 @@
 .button{
-padding: 14px 54px;
-margin: 5% 0 0;
-background-color: $black;
-color: $white;
-border:none;
-font-size: 18px;
-font-family: 'Julius Sans One', sans-serif;
-transition:1s;
-text-transform: uppercase;
+    padding: 14px 54px;
+    margin: 5% 0 0;
+    background-color: $black;
+    color: $white;
+    border:none;
+    font-size: 18px;
+    font-family: 'Julius Sans One', sans-serif;
+    transition:1s;
+    text-transform: uppercase;
 }
 
 .button:hover{
-background:$white;
-color:$black;
-transition:1s;
+    background:$white;
+    color:$black;
+    transition:1s;
 }
