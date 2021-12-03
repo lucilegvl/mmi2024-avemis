@@ -2,6 +2,9 @@
 
 .soutenezlart{
    margin: 136px 0;
+   @media screen and (max-width:300px) {
+      margin: 0;
+   }
 }
 
 .text-side{
@@ -11,10 +14,10 @@
    
    @media screen and (max-width:1000px) {
       flex-direction: column;
-      margin:0px 0px 0px 5px;
+      margin:0;
       display: block;
       background-color: red;
-      padding : 0;
+      padding : 5%;
       h2 {
          margin-bottom: 40px;
          font-size:20px;
