@@ -146,14 +146,12 @@ footer .lines{
 
 .footer-mobile {
    background-color: $black;
-   display:none;
-.footer-desktop {
-   display :block;
+   display: none;
 }
-}
+
 @media screen and (max-width:550px) {
       .footer-desktop {
-         display : none;
+         display: none;
       }
       .footer-mobile {
          display: block;
@@ -177,6 +175,7 @@ footer{
    color: $white;
    margin: 0 auto;
    padding: 10px;
+   height:auto
       
 }
  
@@ -186,7 +185,6 @@ footer a{
    padding-top: 10px;
    padding-bottom: 10px;
    font-size:18px;
-   display : none;
 }
  
 .footer_content-mobile h3{
@@ -202,12 +200,6 @@ footer a{
 .footer_content{
    margin-right: 8%;
    margin-left: 8%;
-}
- 
-footer .lines{
-   flex-direction :column;
-   margin-top: 24px;
-   margin-bottom: 24px;
 }
  
 .lines input{
@@ -231,6 +223,12 @@ footer .lines{
 
 .lines ul li a {
    color:$white;
+}
+
+.contact {
+   @media screen and (max-width:550px) {
+      flex-direction: column;
+      }
 }
 
 .lines ul li a:hover {
@@ -279,7 +277,7 @@ footer .lines{
    margin:0;
 }
 .newsletter{
-   display:block;
+   flex-direction:column;
    padding-bottom: 15px;
 }
 .newsletter h3 {
@@ -294,4 +292,28 @@ footer .lines{
    list-style: none;
    display:flex;
    justify-content: space-evenly;
+   @media screen and (max-width:550px) {  
+   }
+}
+
+.footer-mobile {
+   .contact {
+      align-items: center;
+   }
+   .sublists {
+      ul {
+         display: none;
+      }
+   }
+   .lines{
+      flex-direction :column;
+      margin-top: 24px;
+      margin-bottom: 24px;
+      .h3 {
+         margin-left: 50px !important;
+      }
+   }
+}
+.adress {
+   flex-direction: column;
 }
