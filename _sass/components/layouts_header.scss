@@ -155,10 +155,10 @@ header a {
 }
 
 /* Début scss mobile */
+
 .menu-mobile {
-    background-color: #FAFAFA;
     display: none;
-}
+    }
 
 @media screen and (max-width: 700px) {
     .menu-desktop2 {
@@ -167,6 +167,38 @@ header a {
     .menu-mobile {
       display: block;
     }
+}
+
+.container{
+font-family: 'Julius Sans One', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FAFAFA
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active{
+    color: #FAFAFA;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("/assets/images/menu_burger.svg");
+}
+
+.dropdown-menu{
+    background-color: #1C1C1B;
+    border: none;
+    color: #FAFAFA;
 
 }
 
+.dropdown-item{
+    color: #FAFAFA;
+
+}
+
+.btn-outline-success{
+    background-image: url("/assets/images/index_icon-search.svg");
+    background-repeat: no-repeat;
+    border:none;
+}
