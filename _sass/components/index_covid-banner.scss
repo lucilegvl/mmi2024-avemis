@@ -8,6 +8,10 @@
   text-align: center;
   display:flex;
   opacity: 80%;
+  @media screen and (max-width: 701px){
+    padding: 5px 20px;
+    margin-bottom: 50px;
+  }
 }  
   
 .lien-en-savoir-plus{
@@ -17,4 +21,17 @@
 .lien-en-savoir-plus:hover{
   color: $white;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 701px) {
+  .bandeau-phone {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .bandeau-desktop {
+      display: none;
+  }
 }

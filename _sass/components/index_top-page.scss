@@ -10,8 +10,6 @@
     justify-self: center;
     @media screen and (max-width: 700px){
         min-height: 50px;
-        align-content: center;
-        justify-content: center;
     }
 }
 
@@ -23,8 +21,11 @@
     @media screen and (max-width: 700px){
         padding: 20px;
         margin: 30px;
-        display:inline-block;
         position: relative;
+        align-items: center;
+        justify-content: center;
+        left:43%;
+        transform: translateX(-50%) translateY(0%);
     }
 }
 
@@ -41,8 +42,8 @@
     color:$black;
     @media screen and (max-width: 700px){
         position: absolute;
-        margin-left: 30px;
-        margin-top: 5px;
+        margin-left: 0;
+        margin-top: -5px;
     }
 }
 
@@ -51,7 +52,7 @@
     margin-top: 0px;
     @media screen and (max-width: 700px){
         position: absolute;
-        margin-left: 250px;
-        margin-top: 0px;
+        margin-left: 215px;
+        margin-top: -20px;
     }
 }
