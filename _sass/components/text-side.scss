@@ -18,4 +18,7 @@
    position: absolute;
    padding-left: 2%;
    white-space: nowrap;
+   @media screen and (max-widht){
+    margin-left: 30px;
+   }
 }

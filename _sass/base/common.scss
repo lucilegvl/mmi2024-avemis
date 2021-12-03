@@ -16,6 +16,10 @@ h1{
    font-size: 48px;
    font-weight:normal;
    line-height: 55px;
+   @media screen and (max-width:700px) {
+      font-size: 30px;
+      line-height: 30px;
+   }
 
 }
 h2{
@@ -24,7 +28,7 @@ h2{
    font-weight: bold;
    text-transform: uppercase;
 
-   @media screen and  (max-width: 550px) {
+   @media screen and  (max-width: 700px) {
       font-size : 20px;
       width: 100%;
    }
@@ -35,8 +39,8 @@ h3{
    font-family:'Poppins', sans-serif;
    font-size:24px;
    font-weight: 400;
-   @media screen and (max-width:375px) {
-    font-size: 18px;
+   @media screen and (max-width:700px) {
+      font-size: 18px;
    }
 }
 
