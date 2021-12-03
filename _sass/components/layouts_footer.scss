@@ -56,7 +56,7 @@ footer .lines{
    width: 640px;
    padding: 12px;
    margin-left:58px;
-   @media screen and (max-width:550px) { 
+   @media screen and (max-width:780px) { 
       width: 234px;
        }
       
@@ -157,7 +157,7 @@ footer .lines{
    display :block;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:780px) {
    .footer-desktop {
       display : none;
    }
