@@ -18,12 +18,10 @@
     opacity: 0.9;
     display: inline-block;
     margin-top: 270px;
-    @media screen and (max-width:701px) {
+    @media screen and (max-width:700px) {
         position: relative;
         align-items: center;
         justify-content: center;
-        left:37%;
-        transform: translateX(-50%) translateY(0%);
         padding : 20px;
         margin: 30px;
         h1 {
@@ -44,7 +42,7 @@
 .petit-logo{
     width: 122px;
     height: 55px;
-    @media screen and (max-width:701px) {
+    @media screen and (max-width:700px) {
         width:60px;
         height:27px;
         margin:auto;
@@ -55,7 +53,7 @@
     display: flex;
     margin-left: -20px;
     margin-top: 20px;
-    @media screen and (max-width:701px) {
+    @media screen and (max-width:700px) {
         max-width: 18px;
         position: absolute;
         margin-left: 0;
@@ -67,7 +65,7 @@
     display: flex;
     margin-left:620px;
     margin-top: 10px;
-    @media screen and (max-width:701px) {
+    @media screen and (max-width:700px) {
         max-width: 18px;
         position: absolute;
         margin-left: 345px;
