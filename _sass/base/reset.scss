@@ -104,11 +104,12 @@ menu,
 nav,
 section {
     display: block;
+    margin:0;
 }
 
-/* body {
+body {
     line-height: 1;
-} */
+}
 
 ol,
 ul {
@@ -141,6 +142,3 @@ table {
     border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
