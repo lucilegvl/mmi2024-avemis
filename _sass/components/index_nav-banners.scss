@@ -1,10 +1,12 @@
 /* index et expos menu bandes */
 .evenement-capc {
     background-image: url("../../assets/images/banniereevenementscapc.jpg");
+
     padding:60px 0px;
     margin-bottom: 14px;
     margin-top:136px;
     background-repeat: no-repeat;
+    
     @media screen and (max-width: 550px) {
         padding:30px 0px;
         margin-top:10%;
