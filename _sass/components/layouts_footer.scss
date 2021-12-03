@@ -56,7 +56,11 @@ footer .lines{
    width: 640px;
    padding: 12px;
    margin-left:58px;
-}
+   @media screen and (max-width:550px) { 
+      width: 234px;
+       }
+      
+   }
 .lines ul {
    padding-bottom: 10px;
    padding-top : 10px;
@@ -211,7 +215,6 @@ footer a{
    font-size: 16px;
    font-weight: 300;
    border:none;
-   width: 234px;
    flex-direction:column;
    margin-left: 0;
 }
@@ -246,6 +249,7 @@ footer a{
    
 .social-media ul{
    display:flex;
+   flex-wrap: wrap;
 }
 
 
@@ -268,13 +272,14 @@ footer a{
    font-weight: normal;
    display: flex ;
    align-items: center;
+   justify-content: center;
    text-transform: uppercase;
    padding-top: 25px;
 }
 
 .title-billeterie {
    margin: 0;
-   color: $gold;
+   color: $gold !important;
 }
 
 .newsletter-block-mobile {
@@ -282,7 +287,7 @@ footer a{
    margin:0;
 }
 
-.newsletter{
+.newsletter-mobile{
    flex-direction:column;
    padding-bottom: 15px;
 }
@@ -317,12 +322,12 @@ footer a{
       flex-direction :column;
       margin-top: 24px;
       margin-bottom: 24px;
-      .h3 {
-         margin-left: 50px !important;
-      }
+      // h3 {
+      //    font-weight: 700 !important;
+      // }
    }
 }
-.adress {
+.adress s { 
    flex-direction: column;
    text-align:center;
 }
