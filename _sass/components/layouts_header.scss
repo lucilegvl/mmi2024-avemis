@@ -158,13 +158,15 @@ header a {
 
 .menu-mobile {
     display: none;
-    @media screen and (max-width: 700px) {
-        .menu-desktop2 {
+}
+
+
+@media screen and (max-width: 700px) {
+    .menu-desktop2 {
         display: none;
-        }
-        .menu-mobile {
+    }
+    .menu-mobile {
         display: block;
-        }
     }
 }
 
