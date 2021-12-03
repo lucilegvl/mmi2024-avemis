@@ -84,6 +84,12 @@ header nav ul li{
     position: relative;
     margin: 0px 15px;
     font-size: 18px;
+    @media screen  and (max-width: 700px){
+        float: none;
+        text-align: left;
+        
+        
+    }
 }
 
 header nav ul::after{
@@ -155,17 +161,59 @@ header a {
 }
 
 /* Début scss mobile */
+
 .menu-mobile {
-    background-color: #FAFAFA;
     display: none;
 }
 
+
 @media screen and (max-width: 700px) {
     .menu-desktop2 {
-      display: none;
+        display: none;
     }
  
     .menu-mobile {
-      display: block;
+        display: block;
     }
 }
+
+.container{
+font-family: 'Julius Sans One', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FAFAFA
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active{
+    color: #FAFAFA;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("/assets/images/menu_burger.svg");
+}
+
+.dropdown-menu{
+    background-color: #1C1C1B;
+    border: none;
+    color: #FAFAFA;
+
+}
+
+.dropdown-item{
+    color: #FAFAFA;
+
+}
+
+.btn-outline-success{
+    background-image: url("/assets/images/index_icon-search.svg");
+    background-repeat: no-repeat;
+    border:none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+    color: #D2BE88 ;
+}
+
+
+

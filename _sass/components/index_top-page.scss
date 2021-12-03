@@ -8,6 +8,9 @@
     min-height: calc(100vh - 75px);
     overflow-x: hidden;
     justify-self: center;
+    @media screen and (max-width: 700px){
+        min-width: calc();
+    }
 }
 
 .top-page-index_content{

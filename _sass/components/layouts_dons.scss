@@ -36,14 +36,14 @@
       margin-bottom:20px;
       margin-left: 10px;
       flex-direction: column;
-      
+      // display: flex;
+      // align-items: center;
    }
 }
  
 .text-side .left{
    width:50%;
    flex-shrink:0;
-
 }
 
 .buttondon{
@@ -68,7 +68,7 @@
    }
    @media screen and (max-width:850px) { 
       margin-bottom: 5%;
- }
+   }
 }
    
 .buttondon:hover{

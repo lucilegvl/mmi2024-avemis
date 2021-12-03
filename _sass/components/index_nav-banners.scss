@@ -32,12 +32,12 @@ background-repeat: no-repeat;
 }
 
 .histoire-capc{
-    background-image: url("../../assets/images/banniereevenementscapc.jpg");
+    background-image: url("../../assets/images/bannierehistoirecapc.png");
     padding:60px 0px;
     margin-bottom: 136px;
     background-repeat: no-repeat;
     @media screen and (max-width: 558px) {
-    padding:30px 0px;
+        padding:30px 0px;
     }
 }
 
@@ -58,7 +58,6 @@ background-repeat: no-repeat;
     margin-bottom: 14px;
     @media screen and (max-width: 558px) {
         padding:30px 0px;
-    
     }
 }
         
@@ -78,6 +77,6 @@ background-repeat: no-repeat;
 }
 
 .menu-bandes {  
-@media screen and (max-width:1000px) {
-  }
+    @media screen and (max-width:1000px) {
+    }
 }
