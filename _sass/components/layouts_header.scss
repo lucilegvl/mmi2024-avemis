@@ -160,8 +160,10 @@ header a {
 
 /* Début scss mobile */
 
-.menu-mobile {
-    display: none;
+@media screen and (min-width: 701px) {
+    .menu-mobile {
+        display: none;
+    }
 }
 
 
