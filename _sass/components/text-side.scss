@@ -3,6 +3,11 @@
    display:flex;
    justify-content: space-between;
    margin: 12% 0;
+   @media screen and (max-width: 700px){
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+   }
 }
 
 .text-side .left{
@@ -18,7 +23,7 @@
    position: absolute;
    padding-left: 2%;
    white-space: nowrap;
-   @media screen and (max-widht){
-    margin-left: 30px;
+   @media screen and (max-width:700px){
+      margin-left: 5px;
    }
 }
