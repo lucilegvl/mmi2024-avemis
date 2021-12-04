@@ -6,7 +6,6 @@
 
 .sections {
     display: flex;
-    margin: 5% 10%;
     justify-content: space-between;
     padding-top: 5%;
     @media screen and (max-width:850px) {
@@ -22,7 +21,6 @@
 }
  
 .infos-pratiques h2{
-    padding-left: 10%;
     @media screen and (max-width:850px) {
         font-size: 20px;
     }
