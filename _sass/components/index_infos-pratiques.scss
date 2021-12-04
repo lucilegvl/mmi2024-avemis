@@ -3,7 +3,7 @@
 .infos-pratiques{
     margin: 136px 120px;
     @media screen and (max-width: 800px) {
-        margin: 10px 5px;
+        margin: 30px 10px;
     }
 }
 
@@ -26,6 +26,7 @@
 .infos-pratiques h2{
     @media screen and (max-width:850px) {
         font-size: 20px;
+        margin: 10%;
     }
 }
 .icon-h3 {
