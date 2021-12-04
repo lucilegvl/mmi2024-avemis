@@ -3,15 +3,15 @@
     background-color: $gold;
     display:flex;
     align-items: center;
-    @media screen and (max-width:800px) {
+    @media screen and (max-width:700px) {
         display: block;
     }
 }
 
 .expos-left{
     width: 40%;
-    margin: 0px 10%;
-    @media screen and (max-width:800px) {
+    margin: 0px 120px;
+    @media screen and (max-width:700px) {
         width:80%;
         margin: 10%;
         padding-top :10% ;
@@ -26,7 +26,7 @@
  
 .expos-right {
     width: 58.5%;
-    @media screen and (max-width:800px) {
+    @media screen and (max-width:700px) {
         width: auto;
     }
 }
