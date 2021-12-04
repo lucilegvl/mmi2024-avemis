@@ -3,7 +3,8 @@
     justify-content: space-between;
     margin:136px 120px;
     @media screen and (max-width:800px){
-        margin: 30px 10px 30px 10px;
+        display: inline-block;
+        margin: 30px 10px;
     }
 }
  
