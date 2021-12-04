@@ -2,6 +2,9 @@
 
 .infos-pratiques{
     margin: 136px 120px;
+    @media screen and (max-width: 800px) {
+        margin: 10px 5px;
+    }
 }
 
 .sections {
