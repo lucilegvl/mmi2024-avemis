@@ -2,10 +2,16 @@
    background-color: rgba(28,28,31,0.08);
    padding:80px 122px;
    margin-bottom: 136px;
+   @media screen and (max-width: 700px){
+      margin: 80px 0;
+   }
 }
  
 .others-expos h2{
    margin-bottom: 62px;
+   @media screen and (max-width: 700px){
+      margin-bottom: 30px;
+   }
 }
  
 .others-expos h3{
