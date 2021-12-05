@@ -1,21 +1,5 @@
 /* index et expos les textes avec le titre à gauche */
 
-.soutenezlart{
-   margin: 136px 120px;
-   @media screen and (max-width:700px) {
-      margin: 80px 0;
-      flex-direction: column;
-      display: block;
-      padding : 5%;
-      h2 {
-         margin-bottom: 40px;
-         font-size:20px;
-         flex-direction: column;
-      }
-   }
-}
-
-
 .text-side p {
    margin-bottom:45px;
    @media screen and (max-width:1000px) {
@@ -27,37 +11,31 @@
    }
 }
 
-.text-side .left{
-   width:50%;
-   flex-shrink:0;
+.buttondon {
+  padding: 14px 54px;
+  margin: 50% 0;
+  background-color: $black;
+  color: $white;
+  border: none;
+  font-size: 18px;
+  font-family: "Julius Sans One", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  @media screen and (max-width: 1000px) {
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 14px 54px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  @media screen and (max-width: 850px) {
+    margin-bottom: 5%;
+  }
 }
 
-.buttondon{
-   padding: 14px 54px;
-   margin: 50% 0;
-   background-color: $black;
-   color: $white;
-   border:none;
-   font-size: 18px;
-   font-family: 'Julius Sans One', sans-serif;
-   text-transform: uppercase;
-   text-decoration: none;
-   @media screen and (max-width:1000px) { 
-      
-      margin-top: 20px;
-      flex-direction: column;
-      padding: 14px 54px;
-      display: flex;
-      align-items: center;
-      margin: 0;
-   }
-   @media screen and (max-width:850px) { 
-      margin-bottom: 5%;
-   }
-}
-   
-.buttondon:hover{
-   background:#c2b288;
-   color:$black;
-   transition:1s;
+.buttondon:hover {
+  background: #c2b288;
+  color: $black;
+  transition: 1s;
 }

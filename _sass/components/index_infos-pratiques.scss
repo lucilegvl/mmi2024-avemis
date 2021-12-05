@@ -1,139 +1,126 @@
 /* infos pratiques index */
 
-.infos-pratiques{
-    margin: 136px 120px;
-    @media screen and (max-width: 800px) {
-        margin: 30px 10px;
-    }
+.infos-pratiques {
+  padding: 8%;
+  margin-top: 2%;
 }
 
 .sections {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5%;
-    @media screen and (max-width:850px) {
-        flex-direction: column;
-        display: flex;
-        margin: 50px 0px;
-    }
-}
- 
-.sections h3{
-    margin: 0 0 0 20px;
-}
- 
-.infos-pratiques h2{
-    @media screen and (max-width:850px) {
-        font-size: 20px;
-        margin: 10%;
-    }
-}
-.icon-h3 {
-    display : flex;
-    align-items: center;
-    @media screen and (max-width:850px) {
-        margin-top: 10%;
-    }
-}
- 
-.corp-underline {
-    text-decoration:underline;
-    padding-top: 3.5%;
-    padding-bottom: 2%;
-}
- 
-.time {
-    display: flex;
-    justify-content: space-between;
-    padding-top:3.5%
-}
- 
-.euro {
-    display : flex;
-    justify-content: space-between;
-}
- 
-.time-tarif-section {
-    flex-shrink: 1;
-    width :46.5%;
-    display: flex;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+  @media screen and (max-width: 850px) {
     flex-direction: column;
-    gap: 3rem;
-    @media screen and (max-width:850px) {
-        width : 75%;
-        gap:0rem;
-    }
+    display: flex;
+    align-items: center;
+  }
 }
- 
+
+.sections h3 {
+  margin: 0 0 0 20px;
+}
+
+.icon-h3 {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 700px) {
+    margin-top: 10%;
+  }
+}
+
+.corp-underline {
+  text-decoration: underline;
+  padding-top: 3.5%;
+  padding-bottom: 2%;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.5%;
+}
+
+.euro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-tarif-section {
+  flex-shrink: 1;
+  width: 46.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  @media screen and (max-width: 700px) {
+    width: 90%;
+  }
+}
+
 .lieu-section {
-    display: block;
-    width: 46.5%;
-    @media screen and (max-width:850px) {
-        width: 75%;
-        margin-top: 5%;
-    }
+  display: block;
+  width: 46.5%;
+  @media screen and (max-width: 700px) {
+    width: 100%;
+  }
 }
- 
 
 .title-adress {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    @media screen and (max-width:850px) {
-        display: block;
-        margin-left: 5%;
-    }
-} 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 700px) {
+    display: block;
+    margin-left: 5%;
+  }
+}
 
 .title-adress p {
-    margin: 0;
-    @media screen and (max-width:850px) {
-        margin-top: 5%;
-    }
+  margin: 0;
+  @media screen and (max-width: 700px) {
+    margin-top: 5%;
+  }
 }
- 
+
 .map {
-    width: 100%;
-    padding-top: 3.5%;
-    padding-bottom: 2%;
+  width: 100%;
+  padding-top: 3.5%;
+  padding-bottom: 2%;
 }
- 
+
 .cars-transports {
-    display:flex;
-    justify-content: space-between;
-    @media screen and (max-width:850px) {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 20px;
-        text-align: center;
-    }
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+    margin-left: 5%;
+  }
 }
- 
+
 .cars {
-    width:49%;
-    @media screen and (max-width:850px) {
-        width: 80%;
-    }
+  width: 49%;
+  @media screen and (max-width: 700px) {
+    width: 80%;
+  }
 }
- 
+
 .transports {
-    flex-shrink: 1;
-    width:49%;
-    margin-left: 18%;
-    @media screen and (max-width:850px) {
-        margin-left: 0%;
-        width: 80%;
-    }
+  flex-shrink: 1;
+  width: 49%;
+  margin-left: 18%;
+  @media screen and (max-width: 700px) {
+    margin-left: 0%;
+    width: 80%;
+  }
 }
- 
+
 .text-tarif a {
-    font-family: 'Julius Sans One', sans-serif;
-    text-decoration: none;
-    background-color: $black;
-    color : $white;
-    padding: 10px 48px 10px 48px;
+  font-family: "Julius Sans One", sans-serif;
+  text-decoration: none;
+  background-color: $black;
+  color: $white;
+  padding: 10px 48px 10px 48px;
 }
- 
-.text-days{
-    margin-bottom: 10%;
+
+.text-days {
+  margin-bottom: 10%;
 }
